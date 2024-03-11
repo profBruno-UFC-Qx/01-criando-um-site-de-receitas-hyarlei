@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Boas praticas em HTML",
+      "setup": "npm install",
+      "run": "npx linthtml 'src/**/*.html'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
