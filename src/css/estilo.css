@@ -1,0 +1,47 @@
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section>div {
+    flex: 1;
+    padding: 20px;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+}
+
+h4 {
+    margin-top: 0;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+}
+
+.rating input[type="radio"] {
+    display: none;
+}
+
+.rating label {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.rating label:before {
+    content: '\2605';
+    margin-right: 5px;
+    color: #ddd;
+}
+
+.rating input[type="radio"]:checked~label:before,
+.rating input[type="radio"]:hover~label:before {
+    color: #ffc107;
+}
